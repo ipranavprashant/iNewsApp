@@ -1,0 +1,47 @@
+.horizontalItems {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnLeft {
+  background: rgb(56, 54, 54);
+  color: white;
+  cursor: pointer;
+  padding: 12px 32px;
+  font-size: 1rem;
+  border: 1px solid white;
+  font-weight: 600;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.btnRight {
+  background: rgb(56, 54, 54);
+  color: white;
+  cursor: pointer;
+  padding: 12px 32px;
+  font-size: 1rem;
+  border: 1px solid white;
+  font-weight: 600;
+  margin-right: 10%;
+  margin-bottom: 1%;
+}
+
+.btnLeft:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+}
+
+.btnRight:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
